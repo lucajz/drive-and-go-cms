@@ -1,0 +1,15 @@
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.8em;
+}
+
+li {
+    padding-left: 12px;
+}
+
+ul li::before {
+    content: "&#x2022; ";
+}
